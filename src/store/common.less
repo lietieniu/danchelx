@@ -1,0 +1,22 @@
+@import url('../store/default.less');
+
+.container{
+    display: flex;
+    .left{
+        width:15%;
+        min-width: 180px;
+        height: calc(100vh);
+        background-color: #001529;
+    }
+    .right{
+        flex: 1;
+        width: 85%;
+        height: calc(100vh);
+        overflow: auto; //右侧部分超出自动给滚动
+      .content1{
+          background-color: @colorL;
+          padding: 20px;
+      
+      }
+    }
+}

@@ -1,11 +1,11 @@
 import React from "react";
 
-const App = (props) => {
+const NotFind = () => {
     return (
         <div>
-           {props.children}
+            <h1>Not Did Find</h1>
         </div>
     );
 }
  
-export default App;
+export default NotFind;

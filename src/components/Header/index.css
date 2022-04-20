@@ -1,0 +1,33 @@
+/** 常用色值 **/
+/** 常用字体大小 **/
+.header {
+  background-color: #ffffff;
+}
+.header .header1 {
+  height: 55px;
+  line-height: 55px;
+  text-align: right;
+  padding: 0 60px;
+}
+.header .header1 a {
+  margin-left: 20px;
+}
+.header .header1 span {
+  font-weight: 850;
+  font-size: 16px;
+}
+.header .header2 {
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #f9c700;
+}
+.header .header2 .bread1 {
+  text-align: center;
+  font-size: 19px;
+}
+.header .header2 .bread2 {
+  text-align: right;
+  margin-left: 30px;
+  font-size: 17px;
+  font-weight: bold;
+}
