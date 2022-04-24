@@ -7,13 +7,32 @@
         height: 55px;
         line-height: 55px;
         text-align: right;
-         padding: 0 60px;
+      
          a{
              margin-left: 20px;
+             margin-right: 40px;
          }
          span{
              font-weight: 850;
              font-size: 16px;
+         }
+         //header-left
+         .header-left{
+             height: 62px;
+             line-height: 62px;
+             min-width: calc(30vw);
+             text-align: center;
+             background-color: #1890ff;
+          
+             img{
+                 height: 62px;
+                 vertical-align: top;
+             }
+             h2{
+                 display: inline-block;
+                 color: @colorM;
+                 margin-left: 20px;
+             }
          }
       }
       .header2{
@@ -23,6 +42,18 @@
         .bread1{
             text-align: center;
             font-size: 19px;
+          .shouye{
+             &::after{  //css伪元素
+               content: '';
+               position: absolute;
+               left: 150px;
+               top: 39px;
+               border-top: 25px solid @colorM;
+               border-left: 15px solid transparent;
+               border-right: 15px solid transparent;
+
+             }
+          }
         }
         .bread2{
             text-align: right;

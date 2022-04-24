@@ -19,3 +19,13 @@
   background-color: #f1f3f5;
   padding: 20px;
 }
+.common {
+  height: 62px;
+  line-height: 62px;
+}
+.common .header-right {
+  color: #ffffff;
+  background-color: #1890ff;
+  width: calc(70vw);
+  padding: 0px 55px;
+}

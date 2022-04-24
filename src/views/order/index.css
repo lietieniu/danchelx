@@ -1,0 +1,55 @@
+/** 常用色值 **/
+/** 常用字体大小 **/
+.card {
+  width: calc(82.5vw);
+}
+ul {
+  list-style-type: none;
+}
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+.order-map {
+  height: 550px;
+  width: calc(92vw);
+  margin: 15px auto;
+  margin-left: 30px;
+}
+.detail-items {
+  width: calc(80vw);
+  margin-left: 270px;
+  padding: 25px 50px 25px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.detail-items:last-child {
+  border-bottom: none;
+}
+.detail-items .item-title {
+  margin: 20px 0;
+  font-size: 20px;
+  color: #bebebe;
+}
+.detail-items .detail-form li {
+  margin: 20px 0;
+  line-height: 20px;
+  font-size: 15px;
+  color: #333;
+}
+.detail-items .detail-form li::after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+.detail-items .detail-form-left {
+  float: left;
+  width: 164px;
+  text-align: right;
+  color: #999;
+}
+.detail-items .detail-form-content {
+  padding-left: 194px;
+}

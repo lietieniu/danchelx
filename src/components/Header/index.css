@@ -7,14 +7,30 @@
   height: 55px;
   line-height: 55px;
   text-align: right;
-  padding: 0 60px;
 }
 .header .header1 a {
   margin-left: 20px;
+  margin-right: 40px;
 }
 .header .header1 span {
   font-weight: 850;
   font-size: 16px;
+}
+.header .header1 .header-left {
+  height: 62px;
+  line-height: 62px;
+  min-width: calc(30vw);
+  text-align: center;
+  background-color: #1890ff;
+}
+.header .header1 .header-left img {
+  height: 62px;
+  vertical-align: top;
+}
+.header .header1 .header-left h2 {
+  display: inline-block;
+  color: #ffffff;
+  margin-left: 20px;
 }
 .header .header2 {
   height: 40px;
@@ -24,6 +40,15 @@
 .header .header2 .bread1 {
   text-align: center;
   font-size: 19px;
+}
+.header .header2 .bread1 .shouye::after {
+  content: '';
+  position: absolute;
+  left: 150px;
+  top: 39px;
+  border-top: 25px solid #ffffff;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
 }
 .header .header2 .bread2 {
   text-align: right;

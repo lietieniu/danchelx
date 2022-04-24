@@ -1,22 +1,37 @@
 @import url('../store/default.less');
 
-.container{
+.container {
     display: flex;
-    .left{
-        width:15%;
+
+    .left {
+        width: 15%;
         min-width: 180px;
         height: calc(100vh);
         background-color: #001529;
     }
-    .right{
+
+    .right {
         flex: 1;
         width: 85%;
         height: calc(100vh);
         overflow: auto; //右侧部分超出自动给滚动
-      .content1{
-          background-color: @colorL;
-          padding: 20px;
-      
-      }
+
+        .content1 {
+            background-color: @colorL;
+            padding: 20px;
+
+        }
+    }
+}
+
+.common {
+    height: 62px;
+    line-height: 62px;
+
+    .header-right {
+        color: @colorM;
+        background-color: #1890ff;
+        width: calc(70vw);
+        padding: 0px 55px;
     }
 }
